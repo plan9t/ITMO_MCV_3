@@ -34,6 +34,7 @@ Remove: 896 microseconds
 tree + tree_gs
 Merge: 3235 microseconds
 Remove: 3191 microseconds
+![alt text](image-1.png)
 
 # 2.2. Зависимость производительности от уровня оптимизации (флаги -O0, -O1, -O2, -O3) для варианта без векторных инструкций.
 
@@ -54,6 +55,7 @@ Optimization O3:
 Merge: 1035 microseconds
 Remove: 971 microseconds
 
+![alt text](image-2.png)
 
 
 # 2.3. Влияние ручной векторизации алгоритма на производительность. 
@@ -70,5 +72,3 @@ Remove: 971 microseconds
 ## DOCS:
 
 https://cyberleninka.ru/article/n/vektorizatsiya-programmnogo-koda-soderzhaschego-maloveroyatnye-regiony-v-zadachah-vychislitelnoy-geometrii
-
-Wikipedia - SIMD - Статья о SIMD (Single Instruction, Multiple Data), объясняющая основные принципы работы, архитектуру и применение SIMD-инструкций в современных процессорах. Обсуждаются различные реализации SIMD, включая NEON для ARM. Ссылка на источник
